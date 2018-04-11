@@ -15,25 +15,25 @@
 
   <ItemGroup>
     <Reference Include="Microsoft.Bot.Builder">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.Core\bin\Debug\netstandard2.0\Microsoft.Bot.Builder.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder.Core">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\Microsoft.Bot.Builder.Core\bin\Debug\netstandard2.0\Microsoft.Bot.Builder.Core.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder.Core.Extensions">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\Microsoft.Bot.Builder.Core.Extensions\bin\Debug\netstandard2.0\Microsoft.Bot.Builder.Core.Extensions.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Core.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder.Integration.AspNet.Core">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.Core\bin\Debug\netstandard2.0\Microsoft.Bot.Builder.Integration.AspNet.Core.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Integration.AspNet.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Builder.LUIS">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\Microsoft.Bot.Builder.LUIS\bin\Debug\netstandard2.0\Microsoft.Bot.Builder.LUIS.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.LUIS.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Connector">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.Core\bin\Debug\netstandard2.0\Microsoft.Bot.Connector.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Connector.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Bot.Schema">
-      <HintPath>..\..\Bot Framework v4\botbuilder-dotnet\libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.Core\bin\Debug\netstandard2.0\Microsoft.Bot.Schema.dll</HintPath>
+      <HintPath>..\..\Dependencies\Microsoft.Bot.Schema.dll</HintPath>
     </Reference>
   </ItemGroup>
 
