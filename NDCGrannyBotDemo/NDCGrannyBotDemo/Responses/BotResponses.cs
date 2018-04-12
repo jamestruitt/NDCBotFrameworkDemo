@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Bot.Builder.Core.Extensions;
 using Microsoft.Bot.Schema;
 
-namespace v4ReferenceApp.Responses
+namespace NDCGrannyBotDemo.Responses
 {
     public static class BotResponses
     {

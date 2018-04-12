@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.Bot.Builder;
-using v4ReferenceApp.Context;
+﻿using System.Threading.Tasks;
+using NDCGrannyBotDemo.Context;
 
-namespace v4ReferenceApp.Subjectable
+namespace NDCGrannyBotDemo.Subjectable
 {
     public interface ISubject
     {

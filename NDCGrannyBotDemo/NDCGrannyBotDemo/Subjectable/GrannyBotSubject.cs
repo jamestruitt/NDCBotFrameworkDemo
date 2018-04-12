@@ -1,14 +1,13 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Core.Extensions;
 using Microsoft.Bot.Builder.LUIS;
 using Microsoft.Bot.Schema;
+using NDCGrannyBotDemo.Context;
+using NDCGrannyBotDemo.Models;
+using NDCGrannyBotDemo.Responses;
 using Newtonsoft.Json.Linq;
-using v4ReferenceApp.Context;
-using v4ReferenceApp.Models;
-using v4ReferenceApp.Responses;
 
-namespace v4ReferenceApp.Subjectable
+namespace NDCGrannyBotDemo.Subjectable
 {
     public class GrannyBotSubject : ISubject
     {

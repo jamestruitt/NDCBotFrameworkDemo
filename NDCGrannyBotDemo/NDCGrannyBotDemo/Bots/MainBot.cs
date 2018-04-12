@@ -2,12 +2,11 @@
 using Microsoft.Bot;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Core.Extensions;
-using Microsoft.Bot.Schema;
-using v4ReferenceApp.Context;
-using v4ReferenceApp.Models;
-using v4ReferenceApp.Subjectable;
+using NDCGrannyBotDemo.Context;
+using NDCGrannyBotDemo.Models;
+using NDCGrannyBotDemo.Subjectable;
 
-namespace v4ReferenceApp.Bots
+namespace NDCGrannyBotDemo.Bots
 {
     public class MainBot: IBot
     {

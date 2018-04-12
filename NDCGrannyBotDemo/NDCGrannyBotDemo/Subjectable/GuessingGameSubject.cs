@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 using Microsoft.Bot.Builder.Core.Extensions;
 using Microsoft.Bot.Builder.LUIS;
 using Microsoft.Bot.Schema;
-using v4ReferenceApp.Context;
-using v4ReferenceApp.Models;
-using v4ReferenceApp.Responses;
+using NDCGrannyBotDemo.Context;
+using NDCGrannyBotDemo.Models;
+using NDCGrannyBotDemo.Responses;
 
-namespace v4ReferenceApp.Subjectable
+namespace NDCGrannyBotDemo.Subjectable
 {
     public class GuessingGameSubject:ISubject
     {

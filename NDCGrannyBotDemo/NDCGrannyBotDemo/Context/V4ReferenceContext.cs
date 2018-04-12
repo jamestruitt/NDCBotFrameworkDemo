@@ -1,8 +1,8 @@
 ﻿using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Core.Extensions;
-using v4ReferenceApp.Models;
+using NDCGrannyBotDemo.Models;
 
-namespace v4ReferenceApp.Context
+namespace NDCGrannyBotDemo.Context
 {
     public class V4ReferenceContext: TurnContextWrapper
     {

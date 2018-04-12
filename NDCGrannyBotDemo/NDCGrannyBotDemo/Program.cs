@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace v4ReferenceApp
+namespace NDCGrannyBotDemo
 {
     public class Program
     {

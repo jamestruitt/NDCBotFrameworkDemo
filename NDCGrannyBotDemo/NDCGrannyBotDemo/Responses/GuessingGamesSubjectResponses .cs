@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.Bot.Builder;
 
-namespace v4ReferenceApp.Responses
+namespace NDCGrannyBotDemo.Responses
 {
     public class GuessingGamesSubjectResponses
     {

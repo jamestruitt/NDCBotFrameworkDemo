@@ -9,10 +9,10 @@ using Microsoft.Cognitive.LUIS;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using v4ReferenceApp.Bots;
-using v4ReferenceApp.Models;
+using NDCGrannyBotDemo.Bots;
+using NDCGrannyBotDemo.Models;
 
-namespace v4ReferenceApp
+namespace NDCGrannyBotDemo
 {
     public class Startup
     {

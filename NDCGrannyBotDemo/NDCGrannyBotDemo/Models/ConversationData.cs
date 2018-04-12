@@ -1,6 +1,6 @@
-﻿using v4ReferenceApp.Subjectable;
+﻿using NDCGrannyBotDemo.Subjectable;
 
-namespace v4ReferenceApp.Models
+namespace NDCGrannyBotDemo.Models
 {
     public class ConversationData
     {
