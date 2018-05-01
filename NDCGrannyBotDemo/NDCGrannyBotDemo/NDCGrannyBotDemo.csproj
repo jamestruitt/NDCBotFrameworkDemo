@@ -7,34 +7,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.AzureAppServices.HostingStartup" Version="2.0.2" />
+    <PackageReference Include="Microsoft.Bot.Builder.Ai.LUIS" Version="4.0.0-alpham4" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.0.0-alpham4" />
     <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="5.2.1" />
     <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="5.2.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Microsoft.Bot.Builder">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Builder.Core">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Builder.Core.Extensions">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Core.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Builder.Integration.AspNet.Core">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.Integration.AspNet.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Builder.LUIS">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Builder.LUIS.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Connector">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Connector.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bot.Schema">
-      <HintPath>..\..\Dependencies\Microsoft.Bot.Schema.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

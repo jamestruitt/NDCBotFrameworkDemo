@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.Bot.Builder.Ai.LUIS;
 using Microsoft.Bot.Builder.Core.Extensions;
-using Microsoft.Bot.Builder.LUIS;
 using Microsoft.Bot.Schema;
 using NDCGrannyBotDemo.Context;
 using NDCGrannyBotDemo.Models;
