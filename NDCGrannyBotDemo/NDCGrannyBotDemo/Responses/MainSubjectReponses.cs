@@ -21,22 +21,22 @@ namespace NDCGrannyBotDemo.Responses
 
             List<CardAction> cardButtons = new List<CardAction>();
 
-            CardAction sendAlertButton = new CardAction()
+            CardAction sendGameButton = new CardAction()
             {
                 Value = $"games",
                 Type = "imBack",
                 Title = "Play a Game"
             };
 
-            CardAction canelAlertButton = new CardAction()
+            CardAction canelGrannyButton = new CardAction()
             {
                 Value = $"granny",
                 Type = "imBack",
                 Title = "Granny Bot"
             };
 
-            cardButtons.Add(sendAlertButton);
-            cardButtons.Add(canelAlertButton);
+            cardButtons.Add(sendGameButton);
+            cardButtons.Add(canelGrannyButton);
 
             HeroCard plCard = new HeroCard()
             {
