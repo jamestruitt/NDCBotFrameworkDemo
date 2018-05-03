@@ -25,7 +25,7 @@ namespace NDCGrannyBotDemo.Responses
             {
                 Value = $"games",
                 Type = "imBack",
-                Title = "Play a Game"
+                Title = "Shall we play a Game?"
             };
 
             CardAction canelGrannyButton = new CardAction()
@@ -47,7 +47,7 @@ namespace NDCGrannyBotDemo.Responses
             Attachment plAttachment = plCard.ToAttachment();
             replyToConversation.Attachments.Add(plAttachment);
 
-            var activities = new IActivity[] {MessageFactory.Text("Hello, I'm the V4Reference Bot.") , replyToConversation};
+            var activities = new IActivity[] {MessageFactory.Text("Hello, NDC!!! from James!") , replyToConversation};
 
             await context.SendActivities(activities);
 

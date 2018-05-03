@@ -58,9 +58,9 @@ namespace NDCGrannyBotDemo.Subjectable
                     switch (topItem.key)
                     {
                         case "GetActivities":
-                            var activityId = luisResult.Entities.GetValue("ActivityID")[0].Value<string>();
-                            await context.SendActivity($" Found Entity Name: ActivityID : {activityId}");
-                            await context.SendActivities(BotResponses.GetSingle(activityId));
+                            // var activityId = luisResult.Entities.GetValue("ActivityID")[0].Value<string>();
+                            // await context.SendActivity($" Found Entity Name: ActivityID : 04030201");
+                            await context.SendActivities(BotResponses.GetSingle("04030201"));
                             break;
                         case "ListActivities":
                             await context.SendActivities(BotResponses.GetMultiple());
