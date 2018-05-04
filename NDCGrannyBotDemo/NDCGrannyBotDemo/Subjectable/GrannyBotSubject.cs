@@ -87,7 +87,7 @@ namespace NDCGrannyBotDemo.Subjectable
                         case "Quit":
                             // show Main Menu
                             conversation.CurrentSubject = ParentSubject;
-                            await ParentSubject.ContinueSubject(context);
+                            await ParentSubject.StartSubject(context);
                             break;
                         default:
                             // show our confusion

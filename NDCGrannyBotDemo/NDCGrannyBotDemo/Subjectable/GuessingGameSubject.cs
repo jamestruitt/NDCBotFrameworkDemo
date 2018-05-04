@@ -91,12 +91,14 @@ namespace NDCGrannyBotDemo.Subjectable
 
                                 case "MainMenu":
                                     // show Main Menu
-                                    await conversation.MainMenuSubject.StartSubject(context);
+                                    conversation.CurrentSubject = conversation.MainMenuSubject;
+                                    await conversation.MainMenuSubject.ContinueSubject(context);
                                     break;
 
                                 case "Quit":
                                     // show Main Menu
-                                    await ParentSubject.ContinueSubject(context);
+                                    conversation.CurrentSubject = ParentSubject;
+                                    await ParentSubject.StartSubject(context);
                                     break;
 
                                 default:

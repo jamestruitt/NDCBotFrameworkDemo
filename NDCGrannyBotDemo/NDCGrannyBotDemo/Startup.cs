@@ -48,8 +48,8 @@ namespace NDCGrannyBotDemo
 
                 middleware.Add(new ShowTypingMiddleware());
 
-                var luisModelId = "31d73ce3-395f-4576-805d-eed1638d06d7";
-                var luisSubscriptionKey = "646f989672a54f33b838d3ecdefc8b6e";
+                var luisModelId = Configuration["LuisModelId"];
+                var luisSubscriptionKey = Configuration["LuisSubscriptionKey"];
                 var luisUri = new Uri("https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/");
 
                 var luisModel = new LuisModel(luisModelId, luisSubscriptionKey, luisUri);
