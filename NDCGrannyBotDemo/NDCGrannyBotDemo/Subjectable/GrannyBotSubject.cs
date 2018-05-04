@@ -75,7 +75,7 @@ namespace NDCGrannyBotDemo.Subjectable
                             break;
                         case "Help":
                             // show help
-                            await GuessingGamesSubjectResponses.ReplyWithHelp(context);
+                            await context.SendActivity(MessageFactory.Text("Try commands like: latest, get latest alert, get last activity"));
                             break;
 
                         case "MainMenu":

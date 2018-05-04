@@ -41,7 +41,7 @@ namespace NDCGrannyBotDemo
                 // Add middleware to send an appropriate message to the user if an exception occurs
                 middleware.Add(new CatchExceptionMiddleware<Exception>(async (context, exception) =>
                 {
-                    await context.SendActivity($"Sorry, it looks like something went wrong! {exception.Message}");
+                    //await context.SendActivity($"Sorry, it looks like something went wrong! {exception.Message}");
                 }));
 
                 middleware.Add(new ConversationState<ConversationData>(new MemoryStorage()));
